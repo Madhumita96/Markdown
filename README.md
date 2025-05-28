@@ -1,4 +1,4 @@
-# Markdown
+# How to Work with Markdown for Technical Writers Using VS Code
 - [Markdown](#markdown)
 - [Understanding Docs-as-Code and DITA](#understanding-docs-as-code-and-dita)
   - [1. Introduction](#1-introduction)
@@ -11,12 +11,125 @@
     - [Image](#image)
   - [HTML Code](#html-code)
 
-# Understanding Docs-as-Code and DITA
+# User Manual: How to Work with Markdown for Technical Writers Using VS Code
 ## 1. Introduction
-___Docs-as-Code and DITA___ are **both powerful** approaches to technical documentation. While Docs-as-Code focuses on treating documentation like code, DITA provides a structured XML framework for modular and reusable content. This document explores their similarities, advantages, and integration possibilities.
-## 2. Docs-as-Code Overview
-Docs-as-Code is a methodology that applies software development practices—such as version control, automation, and collaboration—to documentation.
-`enter`
+Markdown is a lightweight markup language used widely for creating formatted text using plain text editors. VS Code (Visual Studio Code) is a free, powerful code editor that offers excellent Markdown support. This guide walks technical writers through setting up and writing in Markdown using VS Code.
+
+## 2.What is Markdown?
+
+Markdown allows you to format text using simple syntax. It's commonly used for README files, documentation, and blogging. Files use the `.md` extension..
+
+##  3. Installing VS Code
+
+- Visit https://code.visualstudio.com
+
+- Download the appropriate version for your OS
+
+- Install and launch VS Code
+
+## 4. Setting Up Markdown in VS Code
+
+Open VS Code
+
+- Install the Markdown All in One extension:
+
+- Go to Extensions tab (or press `Ctrl+Shift+X`)
+
+- Search "Markdown All in One"
+
+- Click Install
+
+Optional:
+
+- Install Markdown Preview Enhanced for better export options
+
+## 5. Creating a Markdown File
+
+- Open VS Code
+
+- Click File > New File
+
+- Save it as `filename.md`
+
+- Start typing Markdown content
+
+## 6. Basic Markdown Syntax
+
+Here are some commonly used Markdown elements:
+```
+# Heading 1
+## Heading 2
+### Heading 3
+
+**Bold text**  
+*Italic text*  
+
+- Bullet list item
+1. Numbered list item
+
+[Link text](https://example.com)  
+`Inline code`  
+
+```javascript
+// Code block
+console.log("Hello World");
+```
+Blockquote
+```
+
+---
+
+### 7. Writing Technical Documentation in Markdown
+Use Markdown to structure content logically:
+- Use headings (`#`) to define sections
+- Bullet lists for features or steps
+- Code blocks for commands or programming examples
+- Tables for data
+
+Example table:
+```markdown
+| Feature | Description |
+|---------|-------------|
+| Bold    | `**text**`  |
+| List    | `- item`    |
+```
+## 8. Using Extensions for Markdown in VS Code
+
+Recommended extensions:
+
+- **Markdown All in One:** Autocomplete, shortcuts, table of contents
+
+- **Markdown Preview Enhanced:** Advanced preview and export
+
+- **Prettier:** Code formatting for consistency
+
+## 9. Previewing Markdown Files
+
+- Click **Open Preview** icon in the top right
+
+- Or press `Ctrl+Shift+V`
+
+- Split screen view available with Ctrl+K V
+
+## 10. Exporting Markdown to PDF or HTML
+
+Use ****Markdown Preview** Enhanced:
+
+- Open Markdown file
+
+- Click the export icon (top right of preview window)
+
+- Choose ****PDF, HTML**, or **PNG**
+
+Or use VS Code CLI with Pandoc (advanced users)
+
+
+
+
+
+
+
+
 ### Key Features:
 * list 1
 * list 2
