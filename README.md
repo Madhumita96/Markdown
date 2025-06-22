@@ -16,6 +16,7 @@
 
 
 
+
 ## 1. Introduction
 Markdown is a lightweight markup language used widely for creating formatted text using plain text editors. VS Code (Visual Studio Code) is a free, powerful code editor that offers excellent Markdown support. This guide walks technical writers through setting up and writing in Markdown using VS Code.
 
